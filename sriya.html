@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Call That Filled the Silence — A Night Call Story</title>
+  <meta name="description" content="A short and sweet night-call story between Bunny at home and Sriya in her hostel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0b0f1a;
+      --card: #121a2a;
+      --ink: #e8eefc;
+      --muted: #a9b7d0;
+      --accent: #7aa2ff;
+      --accent-2: #caa6ff;
+      --ring: rgba(122,162,255,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background: radial-gradient(1200px 800px at 80% -10%, #1a2440 0%, transparent 60%),
+      radial-gradient(900px 600px at -10% 20%, #261a40 0%, transparent 55%), var(--bg);
+      color:var(--ink); font-family:Poppins, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height:1.65; letter-spacing:.2px;
+    }
+    .container{max-width:900px; margin:0 auto; padding: clamp(18px, 2.5vw, 28px)}
+    header{
+      display:flex; align-items:center; justify-content:space-between; gap:16px; padding:24px; margin-top:8px;
+      background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08); border-radius:24px; backdrop-filter: blur(6px);
+      box-shadow: 0 10px 30px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.06);
+    }
+    .title{
+      margin:0; font-size: clamp(24px, 4.2vw, 40px); font-weight:700; letter-spacing:.3px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .subtitle{margin:4px 0 0; color:var(--muted); font-weight:400; font-size: clamp(12px, 1.8vw, 14px)}
+
+    .meta{display:flex; gap:12px; align-items:center; color:var(--muted); font-size:14px}
+    .pill{border:1px solid rgba(255,255,255,.12); padding:6px 12px; border-radius:999px; backdrop-filter: blur(4px)}
+
+    main{
+      margin-top:22px; background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08); border-radius:28px; overflow:hidden;
+      box-shadow: 0 12px 40px rgba(0,0,0,.45);
+    }
+    .hero{
+      position:relative; padding:42px 28px 18px; border-bottom:1px solid rgba(255,255,255,.06);
+      background: radial-gradient(700px 200px at 70% 0%, rgba(122,162,255,.15), transparent 60%),
+                 radial-gradient(600px 180px at 10% 0%, rgba(202,166,255,.12), transparent 60%),
+                 linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.0));
+    }
+    .quote{
+      margin:0; font-family:Literata, Georgia, serif; font-size: clamp(16px, 2.4vw, 20px); color:#dfe7fb;
+    }
+    .story{ padding: 10px 28px 36px }
+    .story h2{
+      font-family:Literata, Georgia, serif; font-weight:600; font-size: clamp(18px, 3vw, 22px); margin: 22px 0 8px; color:#eaf1ff
+    }
+    .story p{ margin: 12px 0; font-size: clamp(14px, 2.1vw, 17px); color:#e8eefc }
+
+    .callout{
+      margin: 22px 0; padding: 14px 16px; border:1px dashed rgba(255,255,255,.18); border-radius:18px; color: var(--muted);
+      background: rgba(122,162,255,.06);
+    }
+
+    footer{ text-align:center; color:var(--muted); font-size:13px; padding: 18px 8px }
+
+    .stars{ position:absolute; inset:0; pointer-events:none; }
+    .star{ position:absolute; width:2px; height:2px; background:radial-gradient(circle, #fff, rgba(255,255,255,.2)); border-radius:50%; opacity:.85; animation: twinkle 2.6s infinite ease-in-out }
+    @keyframes twinkle{ 50%{ opacity:.3; transform: translateY(-1px) scale(.95) } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1 class="title">The Call That Filled the Silence</h1>
+        <p class="subtitle">A short night-call story — Bunny at home, Sriya in her hostel</p>
+      </div>
+      <div class="meta">
+        <span class="pill">Night · Call</span>
+        <span class="pill">Phone Call</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="stars" aria-hidden="true"></div>
+        <p class="quote">“Some nights don’t need moonlight—just a familiar voice in the dark.”</p>
+      </section>
+
+      <section class="story">
+        <h2>The Night Call</h2>
+        <p>Bunny was lying on his bed in his room, lights switched off, phone glowing softly in the dark. He couldn’t sleep. His thoughts kept circling back to one person—<strong>Sriya</strong>.</p>
+        <p>He pressed call. After a few rings, she answered in a hushed voice, “Hello Bunny… everyone’s asleep here in hostel, I had to cover my face with a blanket to talk.”</p>
+        <p>Bunny smiled instantly. “And here I am, alone in my room, waiting just to hear your voice. You know, this silence feels heavy until you break it.”</p>
+        <p>Sriya giggled quietly. “You and your lines… but still, I like them.”</p>
+        <p>There was a pause. Both listened to each other’s breathing. Bunny softly said, “Sriya… my room feels empty without you. I keep looking at my study table, wishing you were here teasing me to focus.”</p>
+        <p>Her tone softened. “And my hostel bed feels cold, Bunny… but when you talk, it feels like I’m back home, safe.”</p>
+        <p>They spoke about random things—college jokes, their future plans, even silly fights they had in class. Slowly the time passed, but neither wanted to hang up.</p>
+        <p>As her voice grew sleepy, she whispered, “Promise me Bunny… you’ll never stop calling me at night.”</p>
+        <p>He closed his eyes, smiling in the dark. “I promise, Sriya. Goodnight… dream of me.”</p>
+        <p>Her last sleepy “hmm” stayed in his ears long after the call ended. Bunny kept staring at the phone screen, his heart full, before finally falling asleep.</p>
+
+        <div class="callout" role="note">Title ideas: <em>“Between His Room and Her Hostel”</em> · <em>“The Call That Filled the Silence”</em> · <em>“Her Whisper, His World”</em></div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; <span id="year"></span> Night Call Story • Crafted with ❤️
+    </footer>
+  </div>
+
+  <script>
+    // Decorative stars
+    const sky = document.querySelector('.stars');
+    const count = 60;
+    for(let i=0;i<count;i++){
+      const s = document.createElement('div');
+      s.className = 'star';
+      const x = Math.random()*100; const y = Math.random()*100; const d = 1 + Math.random()*2.2;
+      s.style.left = x + '%'; s.style.top = y + '%'; s.style.width = d + 'px'; s.style.height = d + 'px';
+      s.style.animationDelay = (Math.random()*2)+'s';
+      sky.appendChild(s);
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
